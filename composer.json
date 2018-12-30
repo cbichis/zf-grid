@@ -1,0 +1,26 @@
+{
+  "name": "cbichis/zf-grid",
+  "description": "Data grid module using Zend Framework 3, jqGrid and Doctrine",
+  "keywords": [
+    "Zend Framework 3",
+    "Doctrine",
+    "jqGrid",
+    "module"
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=7.2",
+    "zendframework/zendframework": "^3",
+    "zendframework/zend-mvc": "^3",
+    "doctrine/doctrine-orm-module": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "ImagisGrid\\": "src/ImagisGrid"
+    },
+    "classmap": [
+      "./Module.php",
+    ]
+  }
+}
